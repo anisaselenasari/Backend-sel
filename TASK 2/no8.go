@@ -4,7 +4,9 @@ import "fmt"
 
 func cetakTablePerkalian(number int) {
 	for i := 1; i <= number; i++ {
+		// BUAT KEBAWAH (ROW)
 		for j := 1; j <= number; j++ {
+			// BUAT KESAMPING NYA (COLOM)
 			fmt.Printf("%d ", i*j)
 		}
 		fmt.Printf("\n")
